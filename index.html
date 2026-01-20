@@ -11,6 +11,7 @@ EMAIL: pmtownse@uci.edu
   <meta name="author" content="Paige Townsend">
   <meta name="description" content="INF 133 Portfolio Assignment">
   <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/1f5b5975f9.js" crossorigin="anonymous"></script>
    <!-- you would also link to Bootstrap here! -->
   <title>INF 133 Portfolio Assignment</title>
 </head>
@@ -33,7 +34,7 @@ EMAIL: pmtownse@uci.edu
 <div class="content" id="about-me">
   <div class="content-text">
     <h2>About Me!</h2>
-    <p> My Name is Paige. I am currently a 3rd year Informatics major at UC Irvine specializing in HCI.
+    <p> My name is Paige. I am currently a 3rd year Informatics major at UC Irvine specializing in HCI.
     I love learning about user experience design and web development! I am particularly interested in creating accessible and inclusive digital experiences.<br>
     <br>Through both researching with Professor Stacy Branham and Professor Jennifer Wong-ma with <a href="https://www.insite.uci.edu/">INsite Lab</a> 
     as well as working as a Digital Accessibilty Consultant with <a href="https://www.dash.uci.edu/">DASH (Digital Accessibility Support and Help)</a>
@@ -44,37 +45,39 @@ EMAIL: pmtownse@uci.edu
     <img src="assets/me-in-sj.jpg" alt="Paige Townsend in front of rose garden in San Jose, CA" class="image image--rounded">
 </div>
 
-<div class="content" id="projects" style="background-color: #d2b5e9;">
+<div class="content" id="projects" style="background-image: linear-gradient(to right, #e98695, #C09BD8);">
   <div class="content-header">
     <h2>Projects</h2>
-    <div class="card-list">
-      <!-- Card layout pattern adapted from W3Schools
-     https://www.w3schools.com/howto/howto_css_cards.asp -->
-      <div class="card">
-        <!-- INsite -->
-         <img src="assets/diectic-dashboard.png" alt="Diectic Dashboard Screenshot" style="width:100%; border-radius:25px 25px 0px 0px;">
-         <div class="container">
-          <h3><b>Diectic Dashboard</b></h3>
-          <p><em>UX Research and Design Intern | INsite Lab | Aug 2025 - Current</em></p>
-          <p>Diectic Dashboard is a professor facing tool designed to identify and flag inaccessible language used during lectures, supporting blind and remote students.
-         </div>
-      </div>
-      <div class="card">
-        <!-- INF 131 -->
-         <img src="assets/quizlet-redesign.png" alt="INF 131 Project Screenshot" style="width:100%; border-radius:25px 25px 0px 0px;">
-         <div class="container">
-          <h3><b>Quizlet Redesign</b></h3>
-          <p><em>INF 131: Human-Centered Design | Winter 2024</em></p>
-          <p>A redesign of Quizlet which adds a student verification feature to the search functionality, enabling users to find accurate study sets more quickly through a more efficient and user centered experience.</p>
+    <div class="container">
+      <div class="card-list">
+        <!-- Card layout pattern adapted from W3Schools
+      https://www.w3schools.com/howto/howto_css_cards.asp -->
+        <div class="card">
+          <!-- INsite -->
+          <img src="assets/diectic-dashboard.png" alt="Diectic Dashboard Screenshot" style="width:100%; border-radius:25px 25px 0px 0px;">
+          <div class="container">
+            <h3>Diectic Dashboard</h3>
+            <h4>UX Research and Design Intern | INsite Lab | Aug 2025 - Current</h4>
+            <p>Diectic Dashboard is a professor facing tool designed to identify and flag inaccessible language used during lectures, supporting blind and remote students.
           </div>
-      </div>
-      <div class="card">
-        <!-- ZotHacks -->
-         <img src="assets/petrtrips.jpg" alt="PetrTrips Start Up page" style="width:100%; border-radius:25px 25px 0px 0px;">
-         <div class="container">
-          <h3><b>PetrTrips</b></h3>
-          <p><em>Participant | ZotHacks 2023 | Nov 2023</em></p>
-          <p>A vacation planning web application that allows users to input a city and discover nearby hotels and tourist attractions.</p>
+        </div>
+        <div class="card">
+          <!-- INF 131 -->
+          <img src="assets/quizlet-redesign.png" alt="INF 131 Project Screenshot" style="width:100%; border-radius:25px 25px 0px 0px;">
+          <div class="container">
+            <h3>Quizlet Redesign</h3>
+            <h4>INF 131: Human-Centered Design | Winter 2024</h4>
+            <p>A redesign of Quizlet which adds a student verification feature to the search functionality, enabling users to find accurate study sets more quickly through a more efficient and user centered experience.</p>
+            </div>
+        </div>
+        <div class="card">
+          <!-- ZotHacks -->
+          <img src="assets/petrtrips.jpg" alt="PetrTrips Start Up page" style="width:100%; border-radius:25px 25px 0px 0px;">
+          <div class="container">
+            <h3>PetrTrips</h3>
+            <h4>Participant | ZotHacks 2023 | Nov 2023</h4>
+            <p>A vacation planning web application that allows users to input a city and discover nearby hotels and tourist attractions.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -84,7 +87,27 @@ EMAIL: pmtownse@uci.edu
 <div class="content" id="connect">
   <div class="content-text">
     <h2>Connect</h2>
-    <p>Feel free to reach out to me via email at <a href="mailto:pmtownse@uci.edu">pmtownse@uci.edu</a></p>
+    <div class="card-list-contact">
+      <div class="card-socials">
+        <div class="container-socials">
+          <a href="mailto:pmtownse@uci.edu" aria-label="Email">
+            <i class="fa-solid fa-envelope fa-2xl" style="color: #1f1617;"></i>
+          </a>
+        </div>
+      </div>  
+      <div class="card-socials">
+        <div class="container-socials">
+          <a href="https://www.linkedin.com/in/ptownse/" aria-label="LinkedIn">
+            <i class="fa-brands fa-square-linkedin fa-2xl" style="color: #1f1617;"></i>
+          </a>
+      </div>  
+    </div>
+      <div class="card-socials">
+        <div class="container-socials">
+          <iframe data-testid="embed-iframe" style="border-radius:25px" src="https://open.spotify.com/embed/playlist/17zr4IfxJlPg3DfzjhmuWJ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
