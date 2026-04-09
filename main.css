@@ -85,7 +85,7 @@ p {
 
 /* Same layout for the page with the gradient background to differentiate the sections */
 .background{
-  background-image: linear-gradient(to right, #e98695, #C09BD8);
+  background-image: linear-gradient(to right, #eccaff, #afb1ff);
 }
 /* ===== Navigation Bar ===== */
 ul.navbar {
@@ -186,7 +186,7 @@ details {
 
 summary {
   gap: 8px;
-  background-color: #e98695;
+  background-color: #ebadb6;
   font-size: 25px;
   width: 350%;
   padding: 28px;
