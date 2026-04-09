@@ -186,7 +186,7 @@ details {
 
 summary {
   gap: 8px;
-  background-color: #ebadb6;
+  background-color: #cabbfa;
   font-size: 25px;
   width: 350%;
   padding: 28px;
@@ -202,7 +202,7 @@ summary {
 }
 
 .summary:hover{
-  background-color: #C09BD8;
+  background-color: #bfacfb;
   cursor: pointer;
 }
 
